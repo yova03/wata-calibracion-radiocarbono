@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+Thumbs.db
+desktop.ini
+# Versiones retiradas: quedan solo en local
+**/_RETIRADOS/

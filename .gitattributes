@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.png binary
+# Curvas: bytes intactos para que el SHA-256 de ORIGEN.md siga valiendo
+*.14c -text
