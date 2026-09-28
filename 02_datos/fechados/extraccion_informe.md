@@ -64,3 +64,8 @@ Entre otros: `TESIS_2018_bioarqueologico-craneos-chancas-quichuas` (fechados exi
 ## Nota honesta sobre la ciudad del Cusco
 
 Del total de 94 filas, solo **11** corresponden estrictamente a `ciudad_cusco` (Marcavalle: 1 fila sin AP; Chanapata/Carmenca: 8 fechas de Ravines sin AP/sigma explícito; Sacsayhuaman: 2 filas, con discrepancia entre sí). Es decir, dentro del casco urbano actual hay muy pocos fechados C14 con edad convencional AP y sigma propiamente dichos en esta biblioteca — la mayoría de lo disponible con AP/sigma robusto proviene del valle (Yuthu, Bandojan, Qotakalli, Machuqolqa, Batán Urqu, tumbas del Valle Sagrado) y de la región más amplia (Pukara Pantillijlla, Illarakay, Sicuani, K'anamarka). Esto es un resultado válido y debe tenerse en cuenta al diseñar la investigación de calibración: si se necesita específicamente radiocarbono de la ciudad, la biblioteca actual ofrece muy poco material verificable con cifra AP+sigma.
+
+## Notas posteriores (2026-09-28)
+
+- Las 16 filas tomadas de `earle2025tombs.md` quedan excluidas por decisión del investigador ([`excluidos.csv`](excluidos.csv)). Siguen en el CSV como registro de la extracción. Sin ellas, el CSV conserva 78 filas, de las que 57 tienen edad AP y sigma.
+- Sacsayhuaman: «1180 ± 140 d. C.» (F016) es la misma edad «770 ± 140 AP» (F015) expresada sin calibrar (1950 − 770 = 1180). Las dos filas no se contradicen: son un solo dato, de Dwyer, citado a través de Bauer.

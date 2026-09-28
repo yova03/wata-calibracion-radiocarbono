@@ -36,8 +36,10 @@ Por decisión del investigador se excluyeron las 16 filas tomadas de Earle
 ## La ciudad casi no tiene fechados utilizables
 
 De los 11 fechados de la ciudad, solo uno trae edad y sigma: Sacsayhuaman,
-770 ± 140 AP, obtenido por Edward Dwyer en la década de 1960 y citado de
-segunda mano. Su rango al 95.4 % con SHCal20 abarca 416 años, de 1027 a
+770 ± 140 AP, obtenido por Edward Dwyer en la década de 1960. Solo se conoce
+de segunda mano, a través de Bauer, y sin código de laboratorio. Otra tesis
+lo cita como «1180 ± 140 d. C.», que es la misma edad sin calibrar
+(1950 − 770). Su rango al 95.4 % con SHCal20 abarca 416 años, de 1027 a
 1442 d. C. Los fechados de Chanapata y Marcavalle solo aparecen como años
 calendario, sin la edad convencional, y no se pueden recalibrar. Para
 estudiar el casco urbano con radiocarbono hacen falta nuevos fechados, o las
@@ -71,7 +73,8 @@ Los fechados formativos de Yuthu, Bandojan y Chumo-Sicuani se sitúan entre
 790 y 59 a. C. Los de Batán Urqu van del siglo II a. C. al VIII d. C.
 Los de Peqokaypata, Tankarpata y Pukacancha, entre los siglos IV y IX d. C. Los
 nueve fechados de la laguna Acopia son de sedimento y no tienen contexto
-arqueológico: se calibran, pero no se grafican.
+arqueológico: se calibran, pero no se grafican. Sin ellos quedan 48 fechados
+arqueológicos calibrables.
 
 ## Archivos
 

@@ -82,8 +82,9 @@ tres curvas sin afirmar de antemano una diferencia que deba contrastarse.
   fallaría hasta en uno de cada cinco fechados.
 - **Fechados publicados**: la biblioteca reúne 94 fechados del Cusco; sin
   Earle (2025), excluido por decisión del investigador, quedan 78, de los
-  que 57 traen edad y sigma. La ciudad aporta uno solo utilizable
-  (Sacsayhuaman, 770 ± 140 AP). De los 16 fechados de los siglos XI a XVI,
+  que 57 traen edad y sigma (48 arqueológicos y 9 de sedimento lacustre).
+  La ciudad aporta un solo fechado calibrable: Sacsayhuaman, 770 ± 140 AP,
+  conocido solo de segunda mano. De los 16 fechados de los siglos XI a XVI,
   los seis de Machuqolqa son anteriores a 1438 y tres de Pukara Pantillijlla
   quedan indecisos.
 
