@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Cite este depósito y las curvas de calibración originales cuando use wata o sus resultados."
+title: "Calibración radiocarbónica abierta y cronología del Cusco: wata, datos y simulaciones"
+authors:
+  - family-names: "Cabrera Huaycochea"
+    given-names: "Daril Yovani"
+    orcid: "https://orcid.org/0009-0007-9912-8010"
+version: "0.1.0"
+type: software
+keywords:
+  - radiocarbono
+  - calibración radiocarbónica
+  - Cusco
+  - SHCal20
+  - IntCal20

@@ -5,3 +5,6 @@ Thumbs.db
 desktop.ini
 # Versiones retiradas: quedan solo en local
 **/_RETIRADOS/
+05_deposito_zenodo/borrador/
+# Curvas IntCal/SHCal de terceros: no se redistribuyen (se descargan con `python -m wata curvas`)
+02_datos/curvas/*.14c
