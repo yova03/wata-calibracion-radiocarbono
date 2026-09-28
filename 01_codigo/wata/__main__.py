@@ -55,7 +55,7 @@ def cmd_lote(a) -> None:
             w = csv.DictWriter(fh, fieldnames=list(salida[0]))
             w.writeheader()
             w.writerows(salida)
-        print(f"{len(salida)} fechados calibrados → {a.salida}")
+        print(f"{len(salida)} fechados calibrados -> {a.salida}")
 
 
 def cmd_simular(a) -> None:

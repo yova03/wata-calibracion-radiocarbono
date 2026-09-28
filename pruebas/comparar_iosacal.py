@@ -61,7 +61,7 @@ def main() -> None:
     exactos = sum(d <= 1 for d in difs)
     print(f"{len(filas)} comparaciones · mismo número de tramos en {iguales}")
     print(f"extremos a ≤1 año en {exactos} de {len(difs)} · diferencia máxima {peor} años")
-    print(f"detalle → {salida}")
+    print(f"detalle -> {salida}")
 
 
 if __name__ == "__main__":

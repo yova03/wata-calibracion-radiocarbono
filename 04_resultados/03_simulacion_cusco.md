@@ -40,9 +40,9 @@ Para separar la ocupación inka tardía de la colonial temprana no alcanza un
 fechado aislado: hacen falta secuencias estratigráficas y modelos
 bayesianos.
 
-La cobertura del rango 95.4 % varió entre 86.5 % y 100 % según el año
-(mediana 95.5 %). La calibración garantiza el 95.4 % en promedio, no para
-cada año verdadero.
+La cobertura observada del rango 95.4 % varió entre 86.5 % y 100 % según el año
+(mediana 95.5 %) en estas simulaciones de 200 muestras por punto. La
+cobertura no es idéntica para cada año verdadero.
 
 ## 2. ¿Antes o después de 1438?
 

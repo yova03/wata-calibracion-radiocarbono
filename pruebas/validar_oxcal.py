@@ -51,12 +51,12 @@ def main() -> None:
         w.writeheader()
         w.writerows(filas)
     for f in filas:
-        marca = "—" if f["mismos_tramos"] is None else ("✓" if f["mismos_tramos"] else "≠")
+        marca = "--" if f["mismos_tramos"] is None else ("OK" if f["mismos_tramos"] else "!=")
         print(f"{marca} {f['codigo']} {f['edad']}±{f['sigma']} {f['nivel']:.3f}  "
               f"OxCal {f['oxcal']}  wata {f['wata']}  Δ={f['dif_max_anios']}")
     difs = [f["dif_max_anios"] for f in filas if f["dif_max_anios"] is not None]
     print(f"\n{len(difs)} rangos comparables · Δ máx {max(difs)} años · Δ mediana "
-          f"{sorted(difs)[len(difs) // 2]} años → {salida}")
+          f"{sorted(difs)[len(difs) // 2]} años -> {salida}")
 
 
 if __name__ == "__main__":

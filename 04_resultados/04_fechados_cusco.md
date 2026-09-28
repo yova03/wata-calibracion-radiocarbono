@@ -9,18 +9,27 @@ uso: "Consultar antes de citar un fechado del Cusco: cada fila de 02_datos/fecha
 
 La búsqueda recorrió los 12 547 archivos Markdown de `_BIBLIOTECA_MD`. De
 ellos, 413 mencionan radiocarbono y 83 documentos tratan además del Cusco.
-La extracción reunió 94 fechados del departamento del Cusco. Cada fila guarda
-el archivo, la línea y la cita textual ([criterios y dudas](../02_datos/fechados/extraccion_informe.md)).
+La extracción reunió 94 registros del departamento del Cusco. Cada fila guarda
+el archivo, la línea y un fragmento de texto OCR, a veces normalizado o
+reconstruido de una tabla ([criterios y dudas](../02_datos/fechados/extraccion_informe.md)).
 
 Por decisión del investigador se excluyeron las 16 filas tomadas de Earle
-(2025) ([`excluidos.csv`](../02_datos/fechados/excluidos.csv)). Quedan 78.
+(2025). Quedan 78 registros, de los cuales 57 contienen edad AP y sigma.
+Otros siete se apartaron de la tabla analítica por calidad del dato:
+F063–F067 fueron rechazados por la fuente de Acopia; F035 y F086 son dos
+edades incompatibles para el mismo código AA 39783. Todos permanecen en
+el inventario bruto y sus motivos constan en
+[`excluidos.csv`](../02_datos/fechados/excluidos.csv).
 
 | Ámbito | Fechados | Con edad AP ± σ | Solo rango o año |
 |---|---:|---:|---:|
 | Ciudad del Cusco | 11 | 1 | 10 |
 | Valle del Cusco | 22 | 18 | 4 |
 | Región Cusco | 45 | 38 | 7 |
-| **Total** | **78** | **57** | **21** |
+| **Total bruto sin Earle** | **78** | **57** | **21** |
+
+La tabla de resultados contiene **50 calibraciones**: 46 arqueológicas y
+cuatro de sedimento lacustre aceptadas por la fuente.
 
 ## Control de la extracción
 
@@ -30,8 +39,8 @@ Por decisión del investigador se excluyeron las 16 filas tomadas de Earle
   la tabla a mano y cada edad corresponde a su código.
 - El código AA 39783 (Peqokaypata) figura con 1527 ± 40 AP en una fuente,
   que cita a Bauer (2008), y con 1422 ± 51 AP en otra, que cita a Bauer
-  (2011). Se conservan ambas filas hasta revisar las publicaciones
-  originales.
+  (2011). Se conservan ambas filas en el inventario bruto, pero no se
+  calibran hasta revisar las publicaciones originales.
 
 ## La ciudad casi no tiene fechados utilizables
 
@@ -56,8 +65,8 @@ publicaciones originales de los antiguos.
 | Illarakay y Aqnapampa | 2 | 0.64 y 0.53 |
 | Sacsayhuaman | 1 | 0.97 |
 
-Los seis fechados de Machuqolqa (± 15 AP) son anteriores a 1438 con total
-seguridad. En Pukara Pantillijlla, AA47651 y AA47658 caen antes, AA47656 y
+Los seis fechados de Machuqolqa (± 15 AP) tienen una probabilidad de ser
+anteriores a 1438 que se redondea a 1.00. En Pukara Pantillijlla, AA47651 y AA47658 caen antes, AA47656 y
 AA47659 después, y AA47655, AA34946 y AA47657 quedan en la franja en que un
 fechado aislado no decide. Esto coincide con la simulación: cerca de 1438 hace
 falta un modelo de varios fechados ([simulación](03_simulacion_cusco.md)).
@@ -73,14 +82,16 @@ Los fechados formativos de Yuthu, Bandojan y Chumo-Sicuani se sitúan entre
 790 y 59 a. C. Los de Batán Urqu van del siglo II a. C. al VIII d. C.
 Los de Peqokaypata, Tankarpata y Pukacancha, entre los siglos IV y IX d. C. Los
 nueve fechados de la laguna Acopia son de sedimento y no tienen contexto
-arqueológico: se calibran, pero no se grafican. Sin ellos quedan 48 fechados
-arqueológicos calibrables.
+arqueológico. Cinco fueron rechazados por el artículo original y no se
+calibran; los cuatro aceptados se calibran como datos paleoambientales
+separados y no se grafican. Tras apartar también las dos lecturas de
+AA 39783, quedan 46 fechados arqueológicos en la tabla.
 
 ## Archivos
 
 | Archivo | Contenido |
 |---|---|
-| [`fechados_cusco/calibrados.csv`](fechados_cusco/calibrados.csv) | 57 fechados: rango 95.4 % y mediana con las tres curvas, y diferencia IntCal20 − SHCal20 |
+| [`fechados_cusco/calibrados.csv`](fechados_cusco/calibrados.csv) | 50 fechados: rango 95.4 % y mediana con las tres curvas, y diferencia IntCal20 − SHCal20 |
 | [`../02_datos/fechados/fechados_biblioteca.csv`](../02_datos/fechados/fechados_biblioteca.csv) | 94 filas originales con fuente, línea y cita |
 | [`../02_datos/fechados/excluidos.csv`](../02_datos/fechados/excluidos.csv) | Filas excluidas y su motivo |
 

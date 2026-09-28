@@ -84,7 +84,7 @@ def main() -> None:
     if tempranos:
         figura_multiple(tempranos, SALIDA / "fig_fechados_anteriores.png",
                         titulo="Fechados del Cusco anteriores al siglo XI, SHCal20 (95.4 %)")
-    print(f"{len(tabla)} fechados calibrados de {len(filas)} filas ({len(excluidos)} excluidas) → {SALIDA}")
+    print(f"{len(tabla)} fechados calibrados de {len(filas)} filas ({len(excluidos)} excluidas) -> {SALIDA}")
 
 
 if __name__ == "__main__":

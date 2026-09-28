@@ -6,6 +6,7 @@ uso: "Punto de entrada. Viabilidad, validación y simulación están en 04_resul
 # Calibración radiocarbónica abierta y cronología del Cusco
 
 **Investigación n.º 06 · 28 de setiembre de 2026**
+**Autor:** Daril Yovani Cabrera Huaycochea
 **Herramienta:** `01_codigo/wata` (versión 0.1.0) · **Manual:** [`README.md`](README.md)
 
 ## Resumen
@@ -80,9 +81,12 @@ tres curvas sin afirmar de antemano una diferencia que deba contrastarse.
   medio. Si la atmósfera del Cusco fuera mixta, calibrar solo con SHCal20
   rejuvenecería las fechas de 1460–1500 entre 40 y 70 años y el rango 95.4 %
   fallaría hasta en uno de cada cinco fechados.
-- **Fechados publicados**: la biblioteca reúne 94 fechados del Cusco; sin
+- **Fechados publicados**: la biblioteca reúne 94 registros del Cusco; sin
   Earle (2025), excluido por decisión del investigador, quedan 78, de los
-  que 57 traen edad y sigma (48 arqueológicos y 9 de sedimento lacustre).
+  que 57 traen edad y sigma. Se apartaron del análisis cinco fechas
+  lacustres rechazadas por su fuente y las dos lecturas incompatibles del
+  código AA 39783. Quedan 50 calibraciones: 46 arqueológicas y cuatro
+  lacustres aceptadas, identificadas por separado.
   La ciudad aporta un solo fechado calibrable: Sacsayhuaman, 770 ± 140 AP,
   conocido solo de segunda mano. De los 16 fechados de los siglos XI a XVI,
   los seis de Machuqolqa son anteriores a 1438 y tres de Pukara Pantillijlla
