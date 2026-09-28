@@ -1,0 +1,53 @@
+{
+  "title": "Calibración radiocarbónica abierta y cronología del Cusco: wata, datos y simulaciones (v0.1.0)",
+  "upload_type": "software",
+  "description": "<p><code>wata</code> es una herramienta en Python para calibrar edades radiocarbónicas convencionales con SHCal20, IntCal20 o una curva mixta, con resultados en español. Este depósito reúne la versión 0.1.0 del código, los datos derivados de fuentes publicadas sobre Cusco, las reglas de exclusión, los resultados de calibración, simulaciones y figuras. Las edades originales proceden de un inventario de 94 registros; el análisis calibra 50 tras excluir 16 filas por decisión del investigador, cinco fechas rechazadas por la fuente y dos lecturas incompatibles del mismo código de laboratorio.</p><p>La implementación de calibración simple se comparó con rangos publicados obtenidos con OxCal y con IOSACal; las siete pruebas incluidas pasan. Los resultados sobre los siglos XI a XVI se basan en 16 fechados del inventario y simulaciones con semillas fijas. El material lacustre aceptado se identifica como paleoambiental y queda fuera de las figuras arqueológicas. El software no incluye modelos bayesianos de fases o secuencias y el escenario de atmósfera mixta no afirma que la proporción real del Cusco sea 50:50.</p><p>Las curvas de calibración son de IntCal y no se incluyen en el archivo depositado; el programa las descarga desde el sitio oficial y registra sus SHA-256. El catálogo ofrece enlaces públicos para 77 de las 94 filas del inventario. Las 13 fechas de Batán Urqu provienen de un informe local sin enlace público verificado; se identifican como tales y requieren cotejo independiente antes de sustentar una conclusión cronológica decisiva.</p>",
+  "creators": [
+    {
+      "name": "Cabrera Huaycochea, Daril Yovani",
+      "orcid": "0009-0007-9912-8010"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "language": "spa",
+  "version": "0.1.0",
+  "keywords": [
+    "radiocarbono",
+    "calibración radiocarbónica",
+    "Cusco",
+    "arqueología andina",
+    "SHCal20",
+    "IntCal20",
+    "simulación",
+    "software científico",
+    "cronología inka"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1017/RDC.2020.59",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1017/RDC.2020.41",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.18800/boletindearqueologiapucp.202401.003",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "20.500.12918/7753",
+      "relation": "references",
+      "scheme": "handle"
+    },
+    {
+      "identifier": "10.3390/plants13071019",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ]
+}
